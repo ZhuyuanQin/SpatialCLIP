@@ -1,0 +1,63 @@
+# Core dependencies for CLIP environment
+# Install with: pip install -r requirements_final.txt
+
+# Core ML and AI libraries
+torch==2.6.0+cu124
+torchvision==0.21.0+cu124
+torchaudio==2.6.0+cu124
+torch-geometric==2.6.1
+transformers==4.52.4
+# Note: CLIP must be installed separately:
+# pip install git+https://github.com/openai/CLIP.git
+
+# Computer Vision
+opencv-python==4.11.0.86
+opencv-python-headless==4.12.0.88
+albumentations==2.0.8
+pillow==11.0.0
+imageio==2.37.0
+scikit-image==0.25.2
+
+# Data Science
+numpy==2.1.2
+pandas==2.3.0
+scipy==1.16.0
+matplotlib==3.10.3
+seaborn==0.13.2
+scikit-learn==1.7.0
+
+# Deep Learning utilities
+tensorboard==2.20.0
+safetensors==0.5.3
+huggingface-hub==0.33.0
+
+# YOLO and Object Detection
+ultralytics==8.3.161
+
+# Jupyter and development
+ipython==8.12.3
+ipykernel==6.29.5
+jupyter_client==8.6.3
+jupyter_core==5.8.1
+jupyterlab_pygments==0.3.0
+
+# Utility libraries
+tqdm==4.67.1
+requests==2.32.4
+pyyaml==6.0.2
+click==8.2.1
+packaging==25.0
+filelock==3.13.1
+
+# Data handling
+openpyxl==3.1.5
+xlrd==2.0.2
+beautifulsoup4==4.13.4
+
+# Additional ML tools
+onnx==1.18.0
+onnxruntime==1.22.0
+gdown==5.2.0
+
+# Note: For torch geometric extensions, run after main installation:
+# pip install torch_cluster torch_scatter torch_sparse torch_spline_conv -f https://data.pyg.org/whl/torch-2.6.0+cu124.html
